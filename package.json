@@ -1,0 +1,29 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "The website of Finscrapers.",
+  "main": "index.js",
+  "repository": "git@github.com:finscrapers/site.git",
+  "author": "Felix Baron <45421716+felixbaron@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export -o docs && echo \"\" > docs/.nojekyll"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.1.3",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "reactstrap": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
