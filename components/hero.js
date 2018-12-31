@@ -11,7 +11,7 @@ export default function Hero(props) {
           <h2 className="col-8">{title}</h2>
           <div className="w-100" />
           <p className="col-8 pt-5 text-center">
-            <a href="//finscrapers-hazel-nywcjnlqgx.now.sh/download">
+            <a href="//github.com/finscrapers/finscrapers/releases/download/v1.0.0/finscrapers-mac-1.0.0.dmg">
               <Button color="secondary" size="lg">
                 Download
               </Button>
