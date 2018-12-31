@@ -447,7 +447,7 @@ function Hero(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "//finscrapers-hazel-nywcjnlqgx.now.sh/download",
+    href: "//github.com/finscrapers/finscrapers/releases/download/v1.0.0/finscrapers-mac-1.0.0.dmg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
